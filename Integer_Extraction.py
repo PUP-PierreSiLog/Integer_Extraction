@@ -5,6 +5,8 @@ with open("D:\[CMPE103] OOP\Integer_Extraction\\numbers.txt") as source, open("D
         strtoint=int(line)
         #Determines if the numbers present are odd or even
         if strtoint%2==0:
+            strtoint=str(strtoint)
             even_output.write(strtoint+"\n")
         else:
+            strtoint=str(strtoint)
             odd_output.write(strtoint+"\n")
